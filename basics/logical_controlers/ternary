@@ -1,0 +1,10 @@
+
+//greatest of 3 nums
+int max=(n1>n2)?(n1>n3?n1:n3):(n2>n3?n2:n3);
+
+//leap year
+ret=(yr%100==0)?(yr%400==0?1:0):(yr%4==0?1:0);
+if(ret) printf("leap yr");
+
+// if num is +ve, -ve, zero
+num?(num>0?printf("positive");:printf("negative");):printf("zero");
