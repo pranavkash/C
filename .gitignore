@@ -1,0 +1,6 @@
+# Ignore all executable a.out files
+a.out
+
+# Ignore Vim swap files for C files
+*.c.swp
+
