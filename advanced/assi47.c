@@ -43,9 +43,9 @@ int main() {
 void sort_names(char (*arr)[20],int rows){
     for(int i=0;i<rows;i++){
         int minIndex = i;
-        for(int j=i;j<rows-i;j++){
+        for(int j=i+1;j<rows;j++){
             int cmp=0;
-            cmp = my_strcmp(arr[j],arr[minIndex]);
+            cmp = my_strcmp(arr[j],arr[minIndex]);//comparing 2 strings
             if(cmp<0){
                 minIndex=j;
             }
